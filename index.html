@@ -10,10 +10,12 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Important Font Raleway -->
+    <!-- Fonts: Raleway, Montserrat -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <style>
+
     @font-face{
         font-family: samarkan;
         src: url('fonts/samarkan/SAMARN.TTF');
@@ -27,15 +29,44 @@
     }
 
     h2 {
-        font-family: 'Raleway', sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 200%;
         text-align: center;
         color: white;
         font-weight: 100;
     }
 
+    p {
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 130%;
+        color: white;
+        border: solid;
+        border-width: 1px;
+    }
+
+    #first {
+        background: url("pictures/backwards_face_full.jpg");
+        background-size: cover;
+    }
+
+    #second {
+        background: url("pictures/bhangra.jpg");
+        background-size: cover;
+
+    }
+
+    div {
+        height: 400%;
+    }
+
+    html {
+        height: 30%;
+    }
+
     body {
-        background-color: #c0392b;
+        background-color: black;
+        height: 100%;
     }
 
     </style>
@@ -79,10 +110,14 @@
     </nav>
 
 
-    <div class="container">
+    <div id="first">
         <h2>WELCOME TO PRINCETON'S PREMIER</h2>
         <h2>SOUTH ASIAN DANCE COMPANY</h2>
         <h1>NAACHO</h1>
+        <p>Hello everyone.</p>
+    </div>
+    <div id="second">
+        <p> fuck this shit </p>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
