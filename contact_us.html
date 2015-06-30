@@ -59,6 +59,14 @@
         -o-filter: blur(5px);
         -ms-filter: blur(5px);
         filter: blur(5px);
+        z-index: 0;
+    }
+
+    #second {
+        height: 89%;
+        background-size: cover;
+        background-position: cover;
+        overflow: auto;
     }
 
     #centeredImage {
@@ -124,7 +132,9 @@
 
 
     <div id="first">
-        <h1> Contact Us</h1>
+        <div id="second">
+            <h1> Contact Us</h1>
+        </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
