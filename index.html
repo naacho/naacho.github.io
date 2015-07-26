@@ -45,6 +45,7 @@
         text-align: center;
         font-size: 130%;
         color: white;
+        width: 80%;
     }
 
 
@@ -73,10 +74,17 @@
         background-size: cover;
         background-position: cover;
         overflow: auto;
+        width: 80%;
     }
 
-    #top-text {
+    .top-text {
         margin-top: 5%;
+    }
+
+    .filler {
+        height: 100%;
+        width: 5%;
+        float: left;
     }
 
     html {
@@ -103,19 +111,24 @@
   <body>
 
     <div id="title_div">
-        <h2></h2>
-        <h2 id="top-text">WELCOME TO PRINCETON'S PREMIER</h2>
+        <h2 class="top-text">WELCOME TO PRINCETON'S PREMIER</h2>
         <h2>SOUTH ASIAN DANCE COMPANY</h2>
         <img id="centeredImage" src="pictures/logo_full_refurbished.png" alt="Naacho Logo">
         <h1>NAACHO</h1>
     </div>
 
-    <div id="second-portion">
-        <h2></h2>
-        <h2>WELCOME TO PRINCETON'S PREMIER</h2>
-        <h2>SOUTH ASIAN DANCE COMPANY</h2>
-        <img id="centeredImage" src="pictures/logo_full_refurbished.png" alt="Naacho Logo">
-        <h1>NAACHO</h1>
+    <div>
+        <div class="filler"><h5>hi</h5></div>
+        <div id="second-portion">
+            <h1 class="top-text">WHO WE ARE</h1>
+            <p>
+                Naacho is Princeton's premier South Asian dance group. We pop, lock, 
+                and drop it with some south asian spice. Our dance forms range from
+                classical to bollywood to hip hop fusion to most anything imaginable.
+
+            </p>
+        </div>
+        <div class="filler"><h5>hi</h5></div>
     </div>
 
 
