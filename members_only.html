@@ -80,6 +80,10 @@
         background: url("pictures/blank-background.png");        
     }
 
+    #random-vid-iframe {
+        max-width: 650px;
+    }
+
     .top-text {
         margin-top: 3%;
     }
@@ -96,6 +100,25 @@
     body {
         height: 100%;
         background-color: black;
+    }
+
+    button {
+        background-color: transparent;
+        font-family: Raleway;
+        font-weight: 100;
+        color: white;
+        border-color: white;
+        border-style: hidden;
+        }
+
+    a {
+        color:white;
+    }
+
+    a:hover {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     </style>
@@ -118,8 +141,30 @@
             Don't tell anyone outside of Naacho about this portion of the website
             until your illustrious tech chairs figure out how to make this password
             protected.
-
         </p>
+
+        <table>
+            <tr>
+                <button>
+                    <a href="#choreo-bank">Choreo Bank</a>
+                </button>
+            </tr>
+            <tr>
+                <button>
+                    <a href="#random-videos">Random Videos</a>
+                </button>
+            </tr>
+            <tr>
+                <button>
+                    Rehearsal Schedule
+                </button>
+            </tr>
+            <tr>
+                <button>
+                    Hell Week Schedule
+                </button>
+            </tr>
+        </table>
     </div>
 
     <div id="choreo-bank" class="generic-div">
@@ -138,11 +183,13 @@
     <div id="random-videos" class="generic-div">
         <h3 class="div-header">Random Videos</h3>
 
-        <p>
-            Here, you can find random videos of cool things people said you should
-            maybe watch.
+        <p class="top-text">
+            Here, you can find Varun Sharma at his peak.
         </p>
-    
+        <br>
+        <br>
+        <iframe id="random-vid-iframe" src="https://www.youtube.com/embed/yn0Qd9eY-IM" frameborder="0" allowfullscreen></iframe>
+
     </div>
 
 
