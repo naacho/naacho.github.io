@@ -65,6 +65,10 @@
         display: block;
     }
 
+    table {
+        float:right;
+    }
+
     .generic-div {
         height: 100%;
         background-size: cover;
@@ -80,6 +84,10 @@
         background: url("pictures/blank-background.png");        
     }
 
+    #rehearsal-schedule {
+        background: url("pictures/blank-background.png");
+    }
+
     #random-vid-iframe {
         max-width: 650px;
     }
@@ -90,6 +98,15 @@
 
     .div-header {
         margin-top: 5%;
+    }
+
+    .column {
+        width: 33%;
+        height: 70px;
+        float: left;
+        text-align: center;
+        font-size: 20px;
+        border: 1px solid white;
     }
 
     html {
@@ -107,8 +124,9 @@
         font-family: Raleway;
         font-weight: 100;
         color: white;
-        border-color: white;
-        border-style: hidden;
+        text-align: center;
+        border: hidden;
+        vertical-align:
         }
 
     a {
@@ -142,30 +160,31 @@
             until your illustrious tech chairs figure out how to make this password
             protected.
         </p>
-
-        <table>
-            <tr>
+        <div>
+            <div class="column">
                 <button>
                     <a href="#choreo-bank">Choreo Bank</a>
                 </button>
-            </tr>
-            <tr>
+            </div>
+
+            <div class="column">
                 <button>
                     <a href="#random-videos">Random Videos</a>
                 </button>
-            </tr>
-            <tr>
+            </div>
+
+            <div class="column">
                 <button>
                     Rehearsal Schedule
                 </button>
-            </tr>
-            <tr>
-                <button>
-                    Hell Week Schedule
-                </button>
-            </tr>
-        </table>
+            </div>
+        </div>
     </div>
+
+    <div id="rehearsal-schedule" class="generic-div">
+
+    </div>
+
 
     <div id="choreo-bank" class="generic-div">
         <h3 class="div-header">Choreo Bank!</h3>
@@ -174,6 +193,7 @@
             Here, you can find the most up-to-date version of the choreo you should 
             be learning! DON'T DROP YOUR CHOREO! :)
         </p>
+
         <br>
         <br>
 
