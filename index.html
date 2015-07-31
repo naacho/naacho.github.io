@@ -15,9 +15,36 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
-
+    <!-- Tab Icon -->
     <link rel="icon" type="image/png"
      href="pictures/logo.png" />
+
+
+    <!-- For Google Maps Iframe -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+var myCenter=new google.maps.LatLng(40.3468512,-74.6552762);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  icon:'pictures/tiny_logo.png'
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
     <style>
 
@@ -94,12 +121,25 @@
         overflow: auto;
     }
 
+    #googleMap {
+        float:right;
+        width:500px;
+        height:380px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .top-text {
         margin-top: 5%;
     }
 
     .div-header {
         margin-top: 8%;
+    }
+
+    .half {
+        width: 50%;
+        display: inline;
     }
 
     html {
@@ -145,9 +185,14 @@
 
     <div id="contact-us">
         <h3 class="div-header">Contact Us</h3>
-        <p class="top-text">
-            Feel free to contact us for any booking requests, questions,
-            or any other concerns.
+        <div class="half">
+            <p>
+                Feel free to contact us for any booking requests, questions,
+                or any other concerns.
+            </p>
+            <textarea rows="6" cols="25">Write here...</textarea>
+        </div>
+        <div id="googleMap" class="half"></div>
     </div>
 
 
