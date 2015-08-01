@@ -82,13 +82,21 @@
 	font-style: normal;
 	font-weight: 200;
 	font-size: large;
+	border-bottom-width: medium;
 }.navbar-default .navbar-brand{
 	color: #FFFFFF;
 	font-family: raleway;
 	font-style: normal;
 	font-weight: 200;
 	font-size: large;
-}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#5e5e5e;background-color:transparent}.navbar-default .navbar-text{color:#777}.navbar-default .navbar-nav>li>a{
+}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{
+	color: #555;
+	background-color: #e7e7e7;
+	float: right;
+	height: 0%;
+	border-width: thick;
+	border-color: #081429;
+}.navbar-default .navbar-text{color:#777}.navbar-default .navbar-nav>li>a{
 	border-radius: 0;
 	color: #FFFFFF;
 	font-family: raleway;
@@ -98,10 +106,17 @@
 	background-color: #081429;
 	float: right;
 }.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{
-	color: #333;
-	background-color: transparent;
+	color: #555;
+	background-color: #e7e7e7;
 	float: right;
-}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{color:#555;background-color:#e7e7e7}.navbar-default .navbar-nav>.disabled>a,.navbar-default .navbar-nav>.disabled>a:focus,.navbar-default .navbar-nav>.disabled>a:hover{color:#ccc;background-color:transparent}.navbar-default .navbar-toggle{border-color:#ddd}.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#ddd}.navbar-default .navbar-toggle .icon-bar{background-color:#888}.navbar-default .navbar-collapse,.navbar-default .navbar-form{border-color:#e7e7e7}.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{
+	height: 0%;
+	border-width: thick;
+	border-color: #081429;
+}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{
+	color: #555;
+	background-color: #e7e7e7;
+	height: 0%;
+}.navbar-default .navbar-nav>.disabled>a,.navbar-default .navbar-nav>.disabled>a:focus,.navbar-default .navbar-nav>.disabled>a:hover{color:#ccc;background-color:transparent}.navbar-default .navbar-toggle{border-color:#ddd}.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#ddd}.navbar-default .navbar-toggle .icon-bar{background-color:#888}.navbar-default .navbar-collapse,.navbar-default .navbar-form{border-color:#e7e7e7}.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{
 	color: #FFFFFF;
 	border-radius: 0;
 	background-color: #081429;
