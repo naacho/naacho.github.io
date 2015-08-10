@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Princeton Naacho</title>
+    <title>Home</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,13 +13,15 @@
     <!-- Neeraj's Styles -->
     <link href="mystyles.css" rel="stylesheet" type="text/css">
 
-    <!-- Fonts: Raleway, Montserrat -->
+    <!-- Fonts: Raleway, Montserrat, Nunito -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
-
+    <!-- Tab Icon -->
     <link rel="icon" type="image/png"
-    href="pictures/logo.png" />
+     href="pictures/logo.png" />
+
 
     <!-- For Google Maps Iframe -->
     <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -47,15 +49,13 @@
   google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 
-
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-  </head>
+</head>
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -67,20 +67,19 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="collapse navbar-collapse">
-                	<ul class="nav navbar-nav">
-               			<li><a class="navbar-brand" href="index.html">Naacho</a></li>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a class="navbar-brand" href="index.html">Naacho</a></li>
                     </ul>
                 </div>
             </div>
 
             <!--For the items that will collapse-->
-            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="company.html">The Company</a></li>
-                    <li><a href="#shows.html">Shows</a></li>
+                    <li><a href="shows.html">Shows</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li class="active"><a href="contact_us.html">Contact Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
                 </ul>
 
                 <!--For the Log-in on right side-->
@@ -91,41 +90,45 @@
         </div>
     </nav>
 
+  
+
+
+
+<div id="title_div">
+  <h2 class="top-text">Welcome to Princeton's Premiere</h2>
+  <h2>South Asian Dance Company</h2>
+  <div>&nbsp;</div>
+  <img id="centeredImage" src="pictures/logo_full_refurbished.png" alt="Naacho Logo">
+  <h1>NAACHO</h1>
+    </div>
+
+    <div id="what-is-naacho">
+        <h3 class="div-header">What is Naacho?</h3>
+        <p class="top-text">
+            Naacho is Princeton's Premier South Asian dance group. We've learned
+            the art of popping, locking, and dropping with a dash of South Asian
+            spice. Our dances are of a wide variety including classical, bollywood,
+            hip hop fusion and many more!
+
+        </p>
+    </div>
+
     <div id="contact-us">
         <h3 class="div-header">Contact Us</h3>
-        
-        <p class="top-text"> If you have any booking requests, questions about Naacho, or anything else, please don't hesitate to reach out to us right here! </p>
-        <br>
-        
-        <div class="half" style="float:left; border-right: 1px white;">
-            <form action="mailto:bajpayee@princeton.edu,shefalij@princeton.edu" target="naachomail">
-                <p class="form">
-                    Name * 
-                    <br>
-                    <input type="text" placeholder=" Your Name">
-                </p>
-                <p class="form">
-                    Email *
-                    <br>
-                    <input type="text" placeholder=" Your Email">
-                </p>
-
-                <p class="form">
-                    Message *
-                    <br>
-                    <textarea placeholder="What's up?..."></textarea>
-                </p>
-                <p>
-                    <input type="submit" value="SUBMIT">
-                </p>
-            </form>
+        <div class="half">
+            <p>
+                Feel free to contact us for any booking requests, questions,
+                or any other concerns.
+            </p>
+            <textarea rows="6" cols="25">Write here...</textarea>
         </div>
-
-        <div id="googleMap" class="half" style="float:right"> </div>
+        <div id="googleMap" class="half"></div>
     </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
