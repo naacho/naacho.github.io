@@ -98,6 +98,21 @@
         height: 50px;
     }
 
+    .generic-div {
+        height: 100%;
+        background-size: cover;
+        background-position: cover;
+        overflow: auto;
+    }
+
+    .video-iframe {
+        width: 90%;
+        height: 58%;
+        margin: 0 auto;
+        display: block;
+        max-width: 650px;
+    }
+
     .top-text {
       margin-top: 3%;
     }
