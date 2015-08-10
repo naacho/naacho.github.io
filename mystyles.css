@@ -138,7 +138,8 @@
         font-weight: 100;
         width: 100%;
         height: 100px;
-        min-width: 300px;
+        min-width: 350px;
+        padding: 10px;
     }
 
     textarea:focus, input:focus {
@@ -160,7 +161,8 @@
         font-family: Roboto, sans-serif;
         font-weight: 100;
         width: 100%;
-        min-width: 300px;
+        min-width: 350px;
+        padding: 10px;
     }
 
     input[type=submit] {
