@@ -19,127 +19,15 @@
     <link rel="icon" type="image/png"
      href="pictures/logo.png" />
 
-    <style>
+    <!-- Neeraj's Styles -->
+    <link href="mystyles.css" rel="stylesheet" type="text/css">
 
-    @font-face{
-        font-family: samarkan;
-        src: url('fonts/samarkan/SAMARN.TTF');
-    }
+    <script type="text/javascript">
 
-    h1 {
-        text-align: center;
-        font-family: samarkan;
-        font-size: 700%;
-        color: white;
-    }
 
-    h2 {
-        font-family: Raleway, sans-serif;
-        font-size: 200%;
-        text-align: center;
-        color: white;
-        font-weight: 100;
-    }
 
-    h3 {
-        font-family: Nunito;
-        font-size:400%;
-        text-align: center;
-        color: white;
-        font-weight: 300;
-    }
 
-    p {
-        font-family: Montserrat;
-        text-align: center;
-        font-size: 130%;
-        color: white;
-        margin-right: 15%;
-        margin-left: 15%;
-    }
-
-    iframe {
-        width: 90%;
-        height: 58%;
-        margin: 0 auto;
-        display: block;
-    }
-
-    table {
-        float:right;
-    }
-
-    .generic-div {
-        height: 100%;
-        background-size: cover;
-        background-position: cover;
-        overflow: auto;
-    }
-
-    #member-intro {
-        background: url("pictures/bhangra-edited.png");
-    }
-
-    #choreo-bank {
-        background: url("pictures/blank-background.png");        
-    }
-
-    #rehearsal-schedule {
-        background: url("pictures/blank-background.png");
-    }
-
-    #random-vid-iframe {
-        max-width: 650px;
-    }
-
-    .top-text {
-        margin-top: 3%;
-    }
-
-    .div-header {
-        margin-top: 5%;
-    }
-
-    .column {
-        width: 33%;
-        height: 70px;
-        float: left;
-        text-align: center;
-        font-size: 20px;
-        border: 1px solid white;
-    }
-
-    html {
-        height: 100%;
-        background-color: black;
-    }
-
-    body {
-        height: 100%;
-        background-color: black;
-    }
-
-    button {
-        background-color: transparent;
-        font-family: Raleway;
-        font-weight: 100;
-        color: white;
-        text-align: center;
-        border: hidden;
-        vertical-align:
-        }
-
-    a {
-        color:white;
-    }
-
-    a:hover {
-        color: white;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-    </style>
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -186,50 +74,33 @@
     
     <div id="member-intro" class="generic-div">
         <h3 class="div-header">Welcome Members!</h3>
-        <p class="top-text">
+        <p id="member-text" class="top-text">
             Shhhhh!!!! You've found the member's-only portion of the website.
             Don't tell anyone outside of Naacho about this portion of the website
             until your illustrious tech chairs figure out how to make this password
             protected.
         </p>
-        <div>
-            <div class="column">
-                <button>
-                    <a href="#choreo-bank">Choreo Bank</a>
-                </button>
-            </div>
+        <div style="text-align:center">
 
-            <div class="column">
-                <button>
-                    <a href="#random-videos">Random Videos</a>
-                </button>
-            </div>
+            <input class="member-buttons" type="submit" onclick="location.href='#choreo-bank';" value="CHOREO BANK &#38; SCHEDULE" />
+        </br>
+    </br>
+            </br>
+            <input class="member-buttons" type="submit" onclick="location.href='#random-videos';" value="RANDOM VIDEOS" />
 
-            <div class="column">
-                <button>
-                    Rehearsal Schedule
-                </button>
-            </div>
         </div>
     </div>
 
-    <div id="rehearsal-schedule" class="generic-div">
-
-    </div>
-
-
     <div id="choreo-bank" class="generic-div">
-        <h3 class="div-header">Choreo Bank!</h3>
+        <h3 class="div-header">Choreo Bank &#38; Schedule!</h3>
 
         <p class="top-text">
-            Here, you can find the most up-to-date version of the choreo you should 
-            be learning! DON'T DROP YOUR CHOREO! :)
+            Choreo Bank and the Schedule! What more do you need?!
         </p>
 
         <br>
-        <br>
 
-        <iframe src="https://docs.google.com/spreadsheets/d/1LutH-yYwFSwwzG1k1Cnc9d2VTpFNNMGl_81BD870fKM/pubhtml?widget=true&amp;headers=false"></iframe>
+        <iframe class="gdrive-iframe" src="https://docs.google.com/spreadsheets/d/1LutH-yYwFSwwzG1k1Cnc9d2VTpFNNMGl_81BD870fKM/pubhtml?widget=true&amp;headers=false"></iframe>
     </div>
 
     <div id="random-videos" class="generic-div">
@@ -240,7 +111,7 @@
         </p>
         <br>
         <br>
-        <iframe id="random-vid-iframe" src="https://www.youtube.com/embed/yn0Qd9eY-IM" frameborder="0" allowfullscreen></iframe>
+        <iframe class="video-iframe" src="https://www.youtube.com/embed/yn0Qd9eY-IM" frameborder="0" allowfullscreen></iframe>
 
     </div>
 

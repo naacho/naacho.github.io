@@ -98,6 +98,11 @@
         height: 50px;
     }
 
+    #member-text {
+        padding-bottom: 5%;
+        border: none;
+    }
+
     .generic-div {
         height: 100%;
         background-size: cover;
@@ -111,6 +116,13 @@
         margin: 0 auto;
         display: block;
         max-width: 650px;
+    }
+
+    .gdrive-iframe {
+        width: 90%;
+        height: 58%;
+        margin: 0 auto;
+        display: block;
     }
 
     .top-text {
@@ -128,6 +140,10 @@
 
     .form {
         text-align: left;
+    }
+
+    .member-buttons {
+        font-size: 50px;
     }
 
     textarea {
@@ -155,6 +171,7 @@
         border-radius: 5px;
         border: none;
         background-color: #456AB5;
+        color:white;
     }
 
     input[type=text] {
@@ -186,4 +203,22 @@
 
     input[type=submit]:active {
         color:white;
+    }
+
+
+    /*Members Page*/
+    #member-intro {
+        background: url("pictures/bhangra-edited.png");
+    }
+
+    #choreo-bank {
+        background: url("pictures/blank-background.png");        
+    }
+
+    #rehearsal-schedule {
+        background: url("pictures/blank-background.png");
+    }
+
+    #random-videos {
+        background: url("pictures/contact_us.png");
     }
