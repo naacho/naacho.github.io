@@ -1,93 +1,33 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Company</title>
+    <title>Princeton Naacho</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts: Raleway, Montserrat -->
-    <link href="http://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!-- Fonts: Raleway, Montserrat, Nunito -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
 
     <link rel="icon" type="image/png"
      href="pictures/logo.png" />
 
-    <style>
+    <!-- Shreyes' Styles -->
+    <link href="shreyStyles.css" rel="stylesheet" type="text/css">
 
-    @font-face{
-        font-family: samarkan;
-        src: url('fonts/samarkan/SAMARN.TTF');
-    }
-
-    h1 {
-        text-align: center;
-        font-family: samarkan;
-        font-size: 700%;
-        color: white;
-    }
-
-    h2 {
-        font-family: Raleway, sans-serif;
-        font-size: 200%;
-        text-align: center;
-        color: white;
-        font-weight: 100;
-    }
-
-    p {
-        font-family: Montserrat;
-        text-align: center;
-        font-size: 130%;
-        color: white;
-    }
-
-    textarea {
-        margin-left: 3%;
-        color: gray;
-        font-family: Raleway;
-    }
+    <script type="text/javascript">
 
 
-    #first {
-        height: 100vh;
-    }
 
-    #first:before {
-        content: "";
-        background: url("pictures/backwards_face_full.jpg");
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-        position: absolute;
-        z-index: -1;
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        filter: blur(5px);
-        }
 
-    #inside {
-        text-align: center;
-        font-family: 'samarkan';
-    }
-
-    html {
-        height: 100%;
-    }
-
-    body {
-        height: 100%;
-        background-color: black;
-    }
-
-    </style>
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,9 +36,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
   </head>
-</head>
 
-<body>
+
+  <body>
 <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header page-scroll">
@@ -118,7 +58,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a href="about.html">About Us</a></li>
-                    <li class="active"><a href="company.html">The Company</a></li>
+                    <li class="active"><a href="company.html">Company</a></li>
                     <li><a href="shows.html">Shows</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact_us.html">Contact Us</a></li>
@@ -131,5 +71,65 @@
             </div>
         </div>
     </nav>
+    
+    
+	<div id="company-intro" class="generic-div">
+        <h3 class="div-header">Meet Our Company!</h3>
+        <br>
+        <br>
+        
+        <div style="text-align:center">
+
+            <input class="member-buttons" type="submit" onclick="location.href='#officers';" value="Officers" />
+
+            <input class="member-buttons" type="submit" onclick="location.href='#seniors';" value="Seniors" />
+            
+            <input class="member-buttons" type="submit" onclick="location.href='#juniors';" value="Juniors" />
+            
+            <input class="member-buttons" type="submit" onclick="location.href='#sophomores';" value="Sophomores" />
+            
+            <input class="member-buttons" type="submit" onclick="location.href='#freshmen';" value="Freshmen" />
+
+        </div>
+    </div>
+    
+    <div id="officers" class="generic-div">
+        <h3 class="div-header">Officers</h3>
+        <br>
+        <br>
+        
+    </div>
+    
+    <div id="seniors" class="generic-div">
+        <h3 class="div-header">Seniors</h3>
+        <br>
+        <br>
+    </div>
+    
+    <div id="juniors" class="generic-div">
+        <h3 class="div-header">Juniors</h3>
+        <br>
+        <br>
+    </div>
+
+	<div id="sophomores" class="generic-div">
+        <h3 class="div-header">Sophomores</h3>
+        <br>
+        <br>
+    </div>
+    
+    <div id="freshmen" class="generic-div">
+        <h3 class="div-header">Freshmen</h3>
+        <br>
+        <br>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
+

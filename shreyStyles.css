@@ -1,0 +1,232 @@
+    
+    html {
+    height: 100%;
+    background-color: #081429;
+    }
+
+    body {
+        height: 100%;
+        background-color: #081429;
+    }
+
+    @font-face{
+        font-family: samarkan;
+        src: url('css/fonts/samarkan/SAMARN.TTF');
+    }
+
+    h1 {
+        text-align: center;
+        font-family: samarkan;
+        font-size: 700%;
+        color: white;
+    }
+
+    h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    }
+
+    h3 {
+        font-family: Nunito;
+        font-size:400%;
+        text-align: center;
+        color: white;
+        font-weight: 300;
+    }
+
+    p {
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 130%;
+        color: white;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+
+    #title_div {
+    background: url("css/pictures/backwards-face-full-edited.png");
+    background-size: cover;
+    background-position: cover;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 7%;
+    }
+
+    #centeredImage {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: block;
+        height: auto;
+        max-height: 40%;
+        min-height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #what-is-naacho {
+        height: 100%;
+        background: url("css/pictures/bhangra-edited.png");
+        background-size: cover;
+        background-position: cover;
+        overflow: auto;
+    }
+
+    #contact-us {
+        height: 100%;
+        background: url("css/pictures/contact_us.png");
+        background-size: cover;
+        background-position: cover;
+        overflow: auto;
+    }
+
+    #googleMap {
+        float:right;
+        width:500px;
+        height:340px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+    }
+
+    #nav-filler {
+        height: 50px;
+    }
+
+    #member-text {
+        padding-bottom: 5%;
+        border: none;
+    }
+
+    .generic-div {
+        height: 100%;
+        background-size: cover;
+        background-position: cover;
+        overflow: auto;
+    }
+
+    .video-iframe {
+        width: 90%;
+        height: 58%;
+        margin: 0 auto;
+        display: block;
+        max-width: 650px;
+    }
+
+    .gdrive-iframe {
+        width: 90%;
+        height: 58%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .top-text {
+      margin-top: 3%;
+    }
+
+    .div-header {
+        margin-top: 8%;
+    }
+
+    .half {
+        width: 45%;
+        display: inline;
+    }
+
+    .form {
+        text-align: left;
+    }
+
+    .member-buttons {
+        font-size: 30px;
+    }
+
+    textarea {
+        border-radius: 5px;
+        border: none;
+        background-color: #456AB5;
+        font-family: Roboto, sans-serif;
+        font-weight: 100;
+        width: 100%;
+        height: 100px;
+        min-width: 350px;
+        padding: 10px;
+    }
+
+    textarea:focus, input:focus {
+        background-color: #314B81;
+        outline:0;
+        -webkit-transition: background-color .35s ease;
+        -moz-transition: background-color .35s ease;
+        -o-transition: background-color .35s ease;
+        transition: background-color .35s ease;
+    }
+
+    input {
+        border-radius: 5px;
+        border: none;
+        background-color: #456AB5;
+        color:white;
+    }
+
+    input[type=text] {
+        font-family: Roboto, sans-serif;
+        font-weight: 100;
+        width: 100%;
+        min-width: 350px;
+        padding: 10px;
+    }
+
+    input[type=submit] {
+        /* Rectangle 33: */
+        font-family: Raleway, sans-serif;
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        -webkit-transition: color 1s ease, border 1s ease;
+        -moz-transition: color 1s ease, border 1s ease;
+        -o-transition: color 1s ease, border 1s ease;
+        transition: color 1s ease, border 1s ease;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: auto;
+    }
+
+    input[type=submit]:hover {
+        color: black;
+        border: 1px solid black;
+    }
+
+    input[type=submit]:active {
+        color:white;
+    }
+
+
+    /*Company Page*/
+    #company-intro {
+        background: url("pictures/bhangra-edited.png");
+    }
+
+    #officers {
+        background: url("pictures/blank-background.png");        
+    }
+
+    #seniors {
+        background: url("pictures/blank-background.png");
+    }
+	
+	#juniors {
+        background: url("pictures/blank-background.png");
+    }
+	
+	#sophomores {
+        background: url("pictures/blank-background.png");
+    }
+	
+	#freshmen {
+        background: url("pictures/blank-background.png");
+    }
