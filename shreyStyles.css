@@ -132,9 +132,9 @@
 	}
 	
 	.picWhite {
-		width: 185px;
-		height: 40vh;
-		margin-bottom: 2vh;	
+		width: 175px;
+		height: 35vh;
+		margin-bottom: 1vh;	
 		box-shadow: 4px 4px 5px #FFFFFF;
 		display: block;	
 		margin-left: auto;
@@ -142,9 +142,9 @@
 	}
 	
 	.picBlack {
-		width: 185px;
-		height: 40vh;
-		margin-bottom: 2vh;	
+		width: 175px;
+		height: 35vh;
+		margin-bottom: 1vh;	
 		display: block;	
 		margin-left: auto;
 		margin-right: auto;
@@ -152,9 +152,9 @@
 	}
 	
 	.pic {
-		width: 185px;
-		height: 40vh;
-		margin-bottom: 2vh;	
+		width: 175px;
+		height: 35vh;
+		margin-bottom: 1vh;	
 		box-shadow: 4px 4px 5px #FFFFFF;	
 		display: block;	
 		margin-left: auto;
