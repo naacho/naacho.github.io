@@ -132,28 +132,31 @@
 	}
 	
 	.picWhite {
-		width: 175px;
+		width: 185px;
 		height: 40vh;
 		margin-bottom: 2vh;	
-		box-shadow: 4px 4px 5px #FFFFFF;	
+		box-shadow: 4px 4px 5px #FFFFFF;
+		display: block;	
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
 	.picBlack {
-		width: 175px;
+		width: 185px;
 		height: 40vh;
 		margin-bottom: 2vh;	
+		display: block;	
 		margin-left: auto;
 		margin-right: auto;
 		box-shadow: 4px 4px 5px #000000;	
 	}
 	
 	.pic {
-		width: 175px;
+		width: 185px;
 		height: 40vh;
 		margin-bottom: 2vh;	
 		box-shadow: 4px 4px 5px #FFFFFF;	
+		display: block;	
 		margin-left: auto;
 		margin-right: auto;	
 	}
