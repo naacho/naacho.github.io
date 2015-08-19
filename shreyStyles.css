@@ -143,19 +143,27 @@
 	}
 	
 	.name {
-	font-family: bitter;
-	font-style: normal;
-	font-weight: 400;
-	color: #FFFFFF;
-	font-size: medium;
+		font-family: bitter;
+		font-style: normal;
+		font-weight: 400;
+		color: #FFFFFF;
+		font-size: medium;
 	}
 	
 	.position {
-	font-family: bitter;
-	font-style: normal;
-	font-weight: 400;
-	color: #FFFFFF;
-	font-size: medium;
+		font-family: bitter;
+		font-style: normal;
+		font-weight: 400;
+		color: #FFFFFF;
+		font-size: medium;
+	}
+	
+	.year {
+		font-family: bitter;
+		font-style: normal;
+		font-weight: 400;
+		color: #FFFFFF;
+		font-size: medium;
 	}
 
     .video-iframe {
@@ -265,18 +273,6 @@
 		 
     }
 
-    #seniors {
-        background: url("pictures/blank-background.png");
-    }
-	
-	#juniors {
-        background: url("pictures/blank-background.png");
-    }
-	
-	#sophomores {
-        background: url("pictures/blank-background.png");
-    }
-	
-	#freshmen {
+    #general {
         background: url("pictures/blank-background.png");
     }
