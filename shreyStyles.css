@@ -104,11 +104,44 @@
     }
 
     .generic-div {
-        height: 100%;
+		width: 100%;
         background-size: cover;
         background-position: cover;
         overflow: auto;
     }
+	
+	.Row {
+		display: table;
+		width: 100%; 
+		table-layout: fixed; 
+		border-spacing: 75px; 
+	}
+	
+	.Column {
+		display: table-cell;
+	}
+	
+	.pic {
+		width: 100%;
+		margin-bottom: 15px;	
+		box-shadow: 2px 2px 5px #888888;	
+	}
+	
+	.name {
+	font-family: bitter;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: medium;
+	}
+	
+	.position {
+	font-family: bitter;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: medium;
+	}
 
     .video-iframe {
         width: 90%;
@@ -208,11 +241,13 @@
 
     /*Company Page*/
     #company-intro {
-        background: url("pictures/bhangra-edited.png");
+        background: url("pictures/bhangra-edited.png"); 
+		height: 100%;
     }
 
     #officers {
-        background: url("pictures/blank-background.png");        
+        background: url("pictures/blank-background.png"); 
+		 
     }
 
     #seniors {
