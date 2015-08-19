@@ -132,30 +132,33 @@
 	}
 	
 	.picWhite {
-		width: 90%;
+		width: 175px;
 		height: 40vh;
 		margin-bottom: 2vh;	
-		margin-left: 5%;
-		margin-right: 5%;
 		box-shadow: 4px 4px 5px #FFFFFF;	
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.picBlack {
-		width: 90%;
+		width: 175px;
 		height: 40vh;
 		margin-bottom: 2vh;	
-		margin-left: 5%;
-		margin-right: 5%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		box-shadow: 4px 4px 5px #000000;	
 	}
 	
 	.pic {
-		width: 90%;
+		width: 175px;
 		height: 40vh;
 		margin-bottom: 2vh;	
-		margin-left: 5%;
-		margin-right: 5%;
-		box-shadow: 4px 4px 5px #FFFFFF;		
+		box-shadow: 4px 4px 5px #FFFFFF;	
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
 	}
 	
 	.picSave {
@@ -297,6 +300,18 @@
 		 
     }
 
-    #general {
+    #seniors {
+        background: url("pictures/blank-background.png");
+    }
+	
+	#juniors {
+        background: url("pictures/blank-background.png");
+    }
+	
+	#sophomores {
+        background: url("pictures/blank-background.png");
+    }
+	
+	#freshmen {
         background: url("pictures/blank-background.png");
     }
