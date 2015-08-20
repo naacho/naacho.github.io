@@ -138,6 +138,17 @@
         display: inline;
     }
 
+	.about {
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-style: normal;
+		font-weight: 300;
+		width: 64%;
+		margin-left: 18%;
+		margin-right: 18%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
     .form {
         text-align: left;
     }
