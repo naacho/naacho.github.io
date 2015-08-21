@@ -71,7 +71,7 @@
 
     #what-is-naacho {
         height: 100%;
-        background: url("pictures/bhangra-edited.png");
+        background: url("pictures/blank-background.png");
         background-size: cover;
         background-position: cover;
         overflow: auto;
@@ -110,6 +110,15 @@
         overflow: auto;
     }
 
+	.show-div {
+		height: 100%;
+        background-size: cover;
+		background: url("pictures/spin.jpeg");
+        background-position: cover;
+        overflow: auto;
+		
+	}
+
     .video-iframe {
         width: 90%;
         height: 58%;
@@ -142,9 +151,8 @@
 		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 		font-style: normal;
 		font-weight: 300;
-		width: 64%;
-		margin-left: 18%;
-		margin-right: 18%;
+		margin-left: 12%;
+		margin-right: 12%;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
