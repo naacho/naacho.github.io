@@ -194,6 +194,7 @@
 	.div-header-officers {
 		color: black;
 		margin-top: 8%;
+		margin-bottom: 3%;
 		padding: 5px;
 		margin-left: 40vw;
 		margin-right: 40vw;
@@ -206,6 +207,7 @@
 	.div-header-seniors {
 		color: black;
 		margin-top: 8%;
+		margin-bottom: 3%;
 		padding: 5px;
 		margin-left: 41vw;
 		margin-right: 41vw;
@@ -218,6 +220,7 @@
 	.div-header-juniors {
 		color: black;
 		margin-top: 8%;
+		margin-bottom: 3%;
 		padding: 5px;
 		margin-left: 41vw;
 		margin-right: 41vw;
@@ -230,6 +233,7 @@
 	.div-header-sophomores {
 		color: black;
 		margin-top: 8%;
+		margin-bottom: 3%;
 		padding: 5px;
 		margin-left: 35vw;
 		margin-right: 35vw;
@@ -245,6 +249,7 @@
 		padding: 5px;
 		margin-left: 38vw;
 		margin-right: 38vw;
+		margin-bottom: 3%;
 		background-position: center;
 		background-color: white;
 		border: 4px solid #000000;
