@@ -31,7 +31,7 @@
 
     h3 {
         font-family: Nunito;
-        font-size:400%;
+        font-size: 400%;
         text-align: center;
         color: white;
         font-weight: 300;
@@ -120,13 +120,48 @@
     }
 
     #googleMap {
-        float:right;
+        float: right;
+        width:500px;
+        height:340px;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-top: 1%;
+        border: 6px solid white;
+    }
+
+    #contact-info {
+        float: left;
         width:500px;
         height:340px;
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 3%;
         margin-top: 1%;
+        border: 6px solid white;
+        background-color: #FFCCFF;
+
     }
+
+    .contact-text-head {
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        text-align: left;
+        font-size: x-large;
+        font-weight: 800;
+        color: #B8005C;
+        margin-left: 5%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
+
+    .contact-text-content {
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        text-align: left;
+        font-size: large;
+        font-weight: 400;
+        color: #B8005C;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+
 
     #nav-filler {
         height: 50px;
@@ -171,7 +206,7 @@
     }
 
     .half {
-        width: 45%;
+        width: 50%;
         display: inline;
     }
 
