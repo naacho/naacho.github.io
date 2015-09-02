@@ -211,6 +211,7 @@
 		background-color: #52263c;
         background: url("pictures/bhangra-edited.png");
         border-bottom: 2px solid white;
+        background-position: center; 
         border-top: 4px solid transparent;		
 	}
 
