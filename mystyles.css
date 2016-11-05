@@ -229,9 +229,9 @@
     }
 
     .show-div1 {
-		height: 100%;
+	height: 100%;
         background-size: cover;
-		background-color: #52263c;
+	background-color: #52263c;
         background: url("pictures/bhangra-edited.png");
         background-position: center; 
 	border-top: 2px solid white;		
@@ -251,7 +251,7 @@
         height: 100%;
         background-size: cover;
         background-color: #233d0d;
-        background: url("pictures/bhangra2.png");
+        background: url("pictures/bhangra2.jog");
         border-top: 4px solid transparent; 
 	border-bottom: 2px solid white;
         background-position: center;       
