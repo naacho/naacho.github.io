@@ -155,6 +155,19 @@
         background-color: white;
     }
 
+    .div-header-show3 {
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 100;
+        margin-top: 8%;
+        border: 4px solid black;
+        padding: 16px;
+        margin-left: 22%;
+        margin-right: 22%;
+        background-color: white;
+    }
+
     #googleMap {
         float: right;
         width:500px;
@@ -215,15 +228,14 @@
         overflow: auto;
     }
 
-	.show-div1 {
+    .show-div1 {
 		height: 100%;
         background-size: cover;
 		background-color: #52263c;
         background: url("pictures/bhangra-edited.png");
-        border-bottom: 2px solid white;
         background-position: center; 
-        border-top: 4px solid transparent;		
-	}
+	border-top: 2px solid white;		
+    }
 
     .show-div2 {
         height: 100%;
@@ -231,6 +243,17 @@
         background-color: #233d0d;
         background: url("pictures/raas.png");
         border-top: 2px solid white; 
+	border-bottom: 2px solid white;
+        background-position: center;       
+    }
+
+    .show-div3 {
+        height: 100%;
+        background-size: cover;
+        background-color: #233d0d;
+        background: url("pictures/bhangra2.png");
+        border-top: 4px solid transparent; 
+	border-bottom: 2px solid white;
         background-position: center;       
     }
 
